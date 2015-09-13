@@ -1,7 +1,14 @@
 ---
 layout: page
-title: Hello World!
+title: 歐尬.rb
 ---
 {% include JB/setup %}
 
-Comming Soon!!!
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
