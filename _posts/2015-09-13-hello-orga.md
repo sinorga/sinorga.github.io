@@ -3,7 +3,7 @@ layout: post
 title: "Hello Orga"
 description: "Hello to every body"
 category: "Dummy"
-tags: ["felling"]
+tags: ["feeling"]
 ---
 {% include JB/setup %}
 
